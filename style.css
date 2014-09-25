@@ -5,6 +5,14 @@
   src: url(/Avenir.ttc);
 }
 
+html {
+  background: url(images/spring-testing-002.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 nav {
   background-color: #2f2f2f;
   position: fixed;
@@ -52,10 +60,11 @@ h2 {
 }
 
 #headings {
-  /*border: 10px double white;
+  border: 10px double white;
   margin: 10px;
 }
 
 #container {
-  float: right;
+  height: 100%;
+  
 }
