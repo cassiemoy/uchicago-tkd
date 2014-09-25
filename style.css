@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
-
 @font-face {
   font-family: Avenir;
   src: url(/Avenir.ttc);
@@ -39,6 +37,15 @@ ul li {
   font-size: 1.2em;
   letter-spacing: 2px;
   text-shadow: 1px 1px silver;
+}
+
+ul li a:link, a:active, a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover {
+  color: tomato;
 }
 
 a:link, a:active, a:visited {
@@ -123,6 +130,7 @@ header {
 table, th, td {
   width: 560px;
   border-collapse: collapse;
+  table-layout: auto;
 }
 
 th, td {
@@ -155,4 +163,8 @@ th {
 .content p {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.content a:link, a:hover, a:visited, a:active {
+  color: tomato;
 }
